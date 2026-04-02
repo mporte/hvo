@@ -115,9 +115,9 @@
 
   /* --- HERO --- */
   .hero {
-    min-height: 100vh; display: flex; flex-direction: column;
+    min-height: auto; display: flex; flex-direction: column;
     align-items: center; justify-content: center; text-align: center;
-    padding: 7rem 2rem 5rem;
+    padding: 7rem 2rem 3rem;
   }
   .hero-logo {
     width: 280px; margin-bottom: 3.5rem;
@@ -145,7 +145,7 @@
   }
 
   /* --- ABOUT --- */
-  .about { padding: 5rem 2rem; background: #fff; }
+  .about { padding: 2rem 2rem 5rem; background: #fff; }
   .about-inner { max-width: 640px; margin: 0 auto; }
   .about-text p {
     color: var(--gray-700); margin-bottom: 1.2rem;
@@ -295,7 +295,7 @@
       <div class="contact-form-wrapper">
         <h3 class="t" data-de="Schreiben Sie uns" data-fr="Écrivez-nous" data-it="Scriveteci" data-en="Write to us"></h3>
 
-        <form class="contact-form" action="https://formfree.com/YOUR-FORM-ID" method="POST" target="_blank">
+        <form class="contact-form" action="mailto:contact@helvoil.ch" method="POST" enctype="text/plain">
 
           <div class="form-group">
             <label class="t" data-de="Name" data-fr="Nom" data-it="Nome" data-en="Name"></label>
@@ -324,10 +324,7 @@
 
           <button type="submit" class="form-submit t" data-de="Nachricht senden" data-fr="Envoyer" data-it="Invia messaggio" data-en="Send message"></button>
 
-          <p class="formfree-note">
-            <span class="t" style="display:inline" data-de="Spamschutz via" data-fr="Protection anti-spam par" data-it="Protezione antispam tramite" data-en="Spam protection via"></span>
-            <a href="https://formfree.com" target="_blank" rel="noopener">Formfree</a>
-          </p>
+        
         </form>
       </div>
 
